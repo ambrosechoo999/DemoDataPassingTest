@@ -5,23 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
-
-    <Button
-        android:id="@+id/btnPassInteger"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/btnInt" />
-
-    <Button
-        android:id="@+id/btnPassCharacter"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/btnChar" />
+    tools:context=".FourthActivity">
 
     <TextView
         android:id="@+id/tvAnswer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/tvDouble" />
+        android:text="" />
 </LinearLayout>
